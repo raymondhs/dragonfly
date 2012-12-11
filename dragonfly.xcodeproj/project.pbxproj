@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6730110B1677B50000E31D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6730110A1677B50000E31D08 /* UIKit.framework */; };
+		6730110D1677B50000E31D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6730110C1677B50000E31D08 /* Foundation.framework */; };
+		6730110F1677B50000E31D08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6730110E1677B50000E31D08 /* CoreGraphics.framework */; };
+		673011151677B50000E31D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 673011131677B50000E31D08 /* InfoPlist.strings */; };
+		673011171677B50000E31D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011161677B50000E31D08 /* main.m */; };
+		6730111B1677B50000E31D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730111A1677B50000E31D08 /* AppDelegate.m */; };
+		6730111E1677B50000E31D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730111D1677B50000E31D08 /* ViewController.m */; };
+		673011211677B50000E31D08 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6730111F1677B50000E31D08 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		673011061677B50000E31D08 /* dragonfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dragonfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6730110A1677B50000E31D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6730110C1677B50000E31D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6730110E1677B50000E31D08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		673011121677B50000E31D08 /* dragonfly-Info.plist */ = {isa = PBXFileReference; path = "dragonfly-Info.plist"; sourceTree = "<group>"; };
+		673011141677B50000E31D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		673011161677B50000E31D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		673011181677B50000E31D08 /* dragonfly-Prefix.pch */ = {isa = PBXFileReference; path = "dragonfly-Prefix.pch"; sourceTree = "<group>"; };
+		673011191677B50000E31D08 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6730111A1677B50000E31D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6730111C1677B50000E31D08 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6730111D1677B50000E31D08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		673011201677B50000E31D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		673011031677B50000E31D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6730110B1677B50000E31D08 /* UIKit.framework in Frameworks */,
+				6730110D1677B50000E31D08 /* Foundation.framework in Frameworks */,
+				6730110F1677B50000E31D08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		673010FB1677B50000E31D08 = {
+			isa = PBXGroup;
+			children = (
+				673011101677B50000E31D08 /* dragonfly */,
+				673011091677B50000E31D08 /* Frameworks */,
+				673011071677B50000E31D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		673011071677B50000E31D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				673011061677B50000E31D08 /* dragonfly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		673011091677B50000E31D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6730110A1677B50000E31D08 /* UIKit.framework */,
+				6730110C1677B50000E31D08 /* Foundation.framework */,
+				6730110E1677B50000E31D08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		673011101677B50000E31D08 /* dragonfly */ = {
+			isa = PBXGroup;
+			children = (
+				673011191677B50000E31D08 /* AppDelegate.h */,
+				6730111A1677B50000E31D08 /* AppDelegate.m */,
+				6730111C1677B50000E31D08 /* ViewController.h */,
+				6730111D1677B50000E31D08 /* ViewController.m */,
+				6730111F1677B50000E31D08 /* ViewController.xib */,
+				673011111677B50000E31D08 /* Supporting Files */,
+			);
+			path = dragonfly;
+			sourceTree = "<group>";
+		};
+		673011111677B50000E31D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				673011121677B50000E31D08 /* dragonfly-Info.plist */,
+				673011131677B50000E31D08 /* InfoPlist.strings */,
+				673011161677B50000E31D08 /* main.m */,
+				673011181677B50000E31D08 /* dragonfly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		673011051677B50000E31D08 /* dragonfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673011241677B50000E31D08 /* Build configuration list for PBXNativeTarget "dragonfly" */;
+			buildPhases = (
+				673011021677B50000E31D08 /* Sources */,
+				673011031677B50000E31D08 /* Frameworks */,
+				673011041677B50000E31D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dragonfly;
+			productName = dragonfly;
+			productReference = 673011061677B50000E31D08 /* dragonfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		673010FD1677B50000E31D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = NUS;
+			};
+			buildConfigurationList = 673011001677B50000E31D08 /* Build configuration list for PBXProject "dragonfly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 673010FB1677B50000E31D08;
+			productRefGroup = 673011071677B50000E31D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				673011051677B50000E31D08 /* dragonfly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		673011041677B50000E31D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673011151677B50000E31D08 /* InfoPlist.strings in Resources */,
+				673011211677B50000E31D08 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		673011021677B50000E31D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673011171677B50000E31D08 /* main.m in Sources */,
+				6730111B1677B50000E31D08 /* AppDelegate.m in Sources */,
+				6730111E1677B50000E31D08 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		673011131677B50000E31D08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673011141677B50000E31D08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6730111F1677B50000E31D08 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673011201677B50000E31D08 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		673011221677B50000E31D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		673011231677B50000E31D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		673011251677B50000E31D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dragonfly/dragonfly-Prefix.pch";
+				INFOPLIST_FILE = "dragonfly/dragonfly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		673011261677B50000E31D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dragonfly/dragonfly-Prefix.pch";
+				INFOPLIST_FILE = "dragonfly/dragonfly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		673011001677B50000E31D08 /* Build configuration list for PBXProject "dragonfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673011221677B50000E31D08 /* Debug */,
+				673011231677B50000E31D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673011241677B50000E31D08 /* Build configuration list for PBXNativeTarget "dragonfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673011251677B50000E31D08 /* Debug */,
+				673011261677B50000E31D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 673010FD1677B50000E31D08 /* Project object */;
+}
