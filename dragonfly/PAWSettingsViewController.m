@@ -181,7 +181,7 @@ static uint16_t const kPAWSettingsTableViewLogoutNumberOfRows = 1;
 		}
 
 		// Configure the cell.
-		cell.textLabel.text = @"Log out of AnyWall";
+		cell.textLabel.text = @"Log out of HackIt!";
 		cell.textLabel.textAlignment = UITextAlignmentCenter;
 
 		return cell;
@@ -230,7 +230,7 @@ static uint16_t const kPAWSettingsTableViewLogoutNumberOfRows = 1;
 		self.filterDistance = distanceForCellInFeet * kPAWFeetToMeters;
 	} else if (indexPath.section == kPAWSettingsTableViewLogout) {
 		[aTableView deselectRowAtIndexPath:indexPath animated:YES];
-		UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Log out of AnyWall?" message:nil delegate:self cancelButtonTitle:@"Log out" otherButtonTitles:@"Cancel", nil];
+		UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Log out of HackIt!?" message:nil delegate:self cancelButtonTitle:@"Log out" otherButtonTitles:@"Cancel", nil];
 		[alertView show];
 	}
 }

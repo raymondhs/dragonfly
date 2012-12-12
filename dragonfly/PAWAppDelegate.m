@@ -15,6 +15,8 @@ static NSString * const defaultsLocationKey = @"currentLocation";
 
 #import "PAWWelcomeViewController.h"
 #import "PAWWallViewController.h"
+#import "TabBarController.h"
+
 
 @interface PAWAppDelegate ()
 
@@ -59,7 +61,7 @@ void uncaughtExceptionHandler(NSException *exception);
 {
 	// Go to the welcome screen and have them log in or create an account.
 	PAWWelcomeViewController *welcomeViewController = [[PAWWelcomeViewController alloc] initWithNibName:@"PAWWelcomeViewController" bundle:nil];
-	welcomeViewController.title = @"Welcome to AnyWall";
+	welcomeViewController.title = @"Welcome to HackIt!";
 	
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:welcomeViewController];
 	navController.navigationBarHidden = YES;
@@ -81,7 +83,7 @@ void uncaughtExceptionHandler(NSException *exception);
 	// Fill in with your Parse credentials:
 	// ****************************************************************************
 
-	// [Parse setApplicationId:@"your_application_id" clientKey:@"your_client_key"];
+	[Parse setApplicationId:kPAWParseApplicationID clientKey:kPAWParseClientKey];
 
 	// Grab values from NSUserDefaults:
 	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
@@ -104,10 +106,14 @@ void uncaughtExceptionHandler(NSException *exception);
 	PFUser *currentUser = [PFUser currentUser];
 	if (currentUser) {
 		// Skip straight to the main view.
-		PAWWallViewController *wallViewController = [[PAWWallViewController alloc] initWithNibName:nil bundle:nil];
+		/*PAWWallViewController *wallViewController = [[PAWWallViewController alloc] initWithNibName:nil bundle:nil];
 		navController = [[UINavigationController alloc] initWithRootViewController:wallViewController];
+		navController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
 		navController.navigationBarHidden = NO;
 		self.viewController = navController;
+		self.window.rootViewController = self.viewController;*/
+		TabBarController *tabBar = [[TabBarController alloc] init];
+		self.viewController = tabBar;
 		self.window.rootViewController = self.viewController;
 	} else {
 		// Go to the welcome screen and have them log in or create an account.

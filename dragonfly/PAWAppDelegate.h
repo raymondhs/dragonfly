@@ -16,6 +16,9 @@ static double const kPAWMetersInAKilometer = 1000.0; // this is an exact value.
 static NSUInteger const kPAWWallPostsSearch = 20; // query limit for pins and tableviewcells
 
 // Parse API key constants:
+static NSString * const kPAWParseApplicationID = @"0B2w4U4R5tq7ShH9Sg7nJMXbKA4lIfzodC1o4mEa";
+static NSString * const kPAWParseClientKey = @"ol4rEuPgMKyL91RHMBfQPIqvxCGwAR2IOxXdKhpb";
+
 static NSString * const kPAWParsePostsClassKey = @"Posts";
 static NSString * const kPAWParseUserKey = @"user";
 static NSString * const kPAWParseUsernameKey = @"username";

@@ -11,6 +11,7 @@
 #import <Parse/Parse.h>
 #import "PAWActivityView.h"
 #import "PAWWallViewController.h"
+#import "TabBarController.h"
 
 @interface PAWNewUserViewController ()
 
@@ -226,8 +227,11 @@ showDialog:
 		[activityView.activityIndicator stopAnimating];
 		[activityView removeFromSuperview];
 
-		PAWWallViewController *wallViewController = [[PAWWallViewController alloc] initWithNibName:nil bundle:nil];
-		[(UINavigationController *)self.presentingViewController pushViewController:wallViewController animated:NO];
+		/*PAWWallViewController *wallViewController = [[PAWWallViewController alloc] initWithNibName:nil bundle:nil];
+		[(UINavigationController *)self.presentingViewController pushViewController:wallViewController animated:NO];*/
+		
+		TabBarController *tabBar = [[TabBarController alloc] init];
+		[(UINavigationController *)self.presentingViewController pushViewController:tabBar animated:NO];
 		[self.presentingViewController dismissModalViewControllerAnimated:YES];
 	}];
 }

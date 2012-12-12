@@ -70,7 +70,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 	if (self) {
-		self.title = @"AnyWall";
+		self.title = @"HackIt!";
 		self.className = kPAWParsePostsClassKey;
 		annotations = [[NSMutableArray alloc] initWithCapacity:10];
 		allPosts = [[NSMutableArray alloc] initWithCapacity:10];
@@ -94,7 +94,7 @@
 	// Add the wall posts tableview as a subview with view containment (new in iOS 5.0):
 	self.wallPostsTableViewController = [[PAWWallPostsTableViewController alloc] initWithStyle:UITableViewStylePlain];
 	[self addChildViewController:self.wallPostsTableViewController];
-	self.wallPostsTableViewController.view.frame = CGRectMake(0.f, 208.f, 320.f, 208.f);
+	self.wallPostsTableViewController.view.frame = CGRectMake(0.f, 172.f, 320.f, 238.f);
 	[self.view addSubview:self.wallPostsTableViewController.view];
 
 	// Set our nav bar items.
@@ -264,7 +264,7 @@
 		case kCLAuthorizationStatusDenied:
 			NSLog(@"kCLAuthorizationStatusDenied");
 			{{
-				UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"AnyWall can’t access your current location.\n\nTo view nearby posts or create a post at your current location, turn on access for AnyWall to your location in the Settings app under Location Services." message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"Ok", nil];
+				UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"We can’t access your current location.\n\nTo view nearby posts or create a post at your current location, turn on access for us to your location in the Settings app under Location Services." message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"Ok", nil];
 				[alertView show];
 				// Disable the post button.
 				self.navigationItem.rightBarButtonItem.enabled = NO;

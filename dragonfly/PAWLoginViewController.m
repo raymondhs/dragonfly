@@ -12,6 +12,7 @@
 #import <Parse/Parse.h>
 #import "PAWActivityView.h"
 #import "PAWWallViewController.h"
+#import "TabBarController.h"
 
 @interface PAWLoginViewController ()
 
@@ -188,8 +189,11 @@
 		[activityView removeFromSuperview];
 
 		if (user) {
-			PAWWallViewController *wallViewController = [[PAWWallViewController alloc] initWithNibName:nil bundle:nil];
+			/*PAWWallViewController *wallViewController = [[PAWWallViewController alloc] initWithNibName:nil bundle:nil];
 			[(UINavigationController *)self.presentingViewController pushViewController:wallViewController animated:NO];
+			[self.presentingViewController dismissModalViewControllerAnimated:YES];*/
+			TabBarController *tabBarController = [[TabBarController alloc] initWithNibName:nil bundle:nil];
+			[(UINavigationController *)self.presentingViewController pushViewController:tabBarController animated:NO];
 			[self.presentingViewController dismissModalViewControllerAnimated:YES];
 		} else {
 			// Didn't get a user.

@@ -12,9 +12,34 @@
 		6730110F1677B50000E31D08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6730110E1677B50000E31D08 /* CoreGraphics.framework */; };
 		673011151677B50000E31D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 673011131677B50000E31D08 /* InfoPlist.strings */; };
 		673011171677B50000E31D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011161677B50000E31D08 /* main.m */; };
-		6730111B1677B50000E31D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730111A1677B50000E31D08 /* AppDelegate.m */; };
-		6730111E1677B50000E31D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730111D1677B50000E31D08 /* ViewController.m */; };
-		673011211677B50000E31D08 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6730111F1677B50000E31D08 /* ViewController.xib */; };
+		673011441677B5E400E31D08 /* PAWActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011281677B57600E31D08 /* PAWActivityView.m */; };
+		673011451677B5E400E31D08 /* PAWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730112A1677B57600E31D08 /* PAWAppDelegate.m */; };
+		673011461677B5E400E31D08 /* PAWCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730112C1677B57600E31D08 /* PAWCircleView.m */; };
+		673011471677B5E400E31D08 /* PAWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730112E1677B57600E31D08 /* PAWLoginViewController.m */; };
+		673011481677B5E400E31D08 /* PAWNewUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011311677B57600E31D08 /* PAWNewUserViewController.m */; };
+		673011491677B5E400E31D08 /* PAWPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011341677B57700E31D08 /* PAWPost.m */; };
+		6730114A1677B5E400E31D08 /* PAWSearchRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011361677B57700E31D08 /* PAWSearchRadius.m */; };
+		6730114B1677B5E400E31D08 /* PAWSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011381677B57700E31D08 /* PAWSettingsViewController.m */; };
+		6730114C1677B5E400E31D08 /* PAWWallPostCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730113B1677B57700E31D08 /* PAWWallPostCreateViewController.m */; };
+		6730114D1677B5E400E31D08 /* PAWWallPostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730113E1677B57700E31D08 /* PAWWallPostsTableViewController.m */; };
+		6730114E1677B5E400E31D08 /* PAWWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011401677B57700E31D08 /* PAWWallViewController.m */; };
+		6730114F1677B5E400E31D08 /* PAWWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673011431677B57700E31D08 /* PAWWelcomeViewController.m */; };
+		673011511677B5EF00E31D08 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673011501677B5EF00E31D08 /* CoreLocation.framework */; };
+		67776AFB1677B65300AFA3CB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67776AFA1677B65300AFA3CB /* Parse.framework */; };
+		67776AFE1677B67400AFA3CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67776AFD1677B67400AFA3CB /* MapKit.framework */; };
+		67776B001677B67900AFA3CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67776AFF1677B67900AFA3CB /* Security.framework */; };
+		67776B021677B69900AFA3CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67776B011677B69900AFA3CB /* SystemConfiguration.framework */; };
+		67776B041677B6C000AFA3CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67776B031677B6C000AFA3CB /* MobileCoreServices.framework */; };
+		67776B061677B70200AFA3CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67776B051677B70200AFA3CB /* QuartzCore.framework */; };
+		67776B081677B7B600AFA3CB /* PAWWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67776B071677B7B600AFA3CB /* PAWWelcomeViewController.xib */; };
+		67776B0A1677B80B00AFA3CB /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 67776B091677B80B00AFA3CB /* Button.png */; };
+		67776B0E1677B84100AFA3CB /* hackitlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 67776B0D1677B84100AFA3CB /* hackitlogo.png */; };
+		67776B0F1677BA5500AFA3CB /* PAWLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6730112F1677B57600E31D08 /* PAWLoginViewController.xib */; };
+		67776B101677BA6B00AFA3CB /* PAWNewUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 673011321677B57600E31D08 /* PAWNewUserViewController.xib */; };
+		67776B111677BA6E00AFA3CB /* PAWSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 673011391677B57700E31D08 /* PAWSettingsViewController.xib */; };
+		67776B121677BA7100AFA3CB /* PAWWallPostCreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6730113C1677B57700E31D08 /* PAWWallPostCreateViewController.xib */; };
+		67776B131677BA7400AFA3CB /* PAWWallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 673011411677B57700E31D08 /* PAWWallViewController.xib */; };
+		67776B4C167803AC00AFA3CB /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67776B4B167803AB00AFA3CB /* TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +47,51 @@
 		6730110A1677B50000E31D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6730110C1677B50000E31D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6730110E1677B50000E31D08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		673011121677B50000E31D08 /* dragonfly-Info.plist */ = {isa = PBXFileReference; path = "dragonfly-Info.plist"; sourceTree = "<group>"; };
+		673011121677B50000E31D08 /* dragonfly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dragonfly-Info.plist"; sourceTree = "<group>"; };
 		673011141677B50000E31D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		673011161677B50000E31D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		673011181677B50000E31D08 /* dragonfly-Prefix.pch */ = {isa = PBXFileReference; path = "dragonfly-Prefix.pch"; sourceTree = "<group>"; };
-		673011191677B50000E31D08 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		6730111A1677B50000E31D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6730111C1677B50000E31D08 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		6730111D1677B50000E31D08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		673011201677B50000E31D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		673011181677B50000E31D08 /* dragonfly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dragonfly-Prefix.pch"; sourceTree = "<group>"; };
+		673011271677B57600E31D08 /* PAWActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWActivityView.h; sourceTree = "<group>"; };
+		673011281677B57600E31D08 /* PAWActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWActivityView.m; sourceTree = "<group>"; };
+		673011291677B57600E31D08 /* PAWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWAppDelegate.h; sourceTree = "<group>"; };
+		6730112A1677B57600E31D08 /* PAWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWAppDelegate.m; sourceTree = "<group>"; };
+		6730112B1677B57600E31D08 /* PAWCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWCircleView.h; sourceTree = "<group>"; };
+		6730112C1677B57600E31D08 /* PAWCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWCircleView.m; sourceTree = "<group>"; };
+		6730112D1677B57600E31D08 /* PAWLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWLoginViewController.h; sourceTree = "<group>"; };
+		6730112E1677B57600E31D08 /* PAWLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWLoginViewController.m; sourceTree = "<group>"; };
+		6730112F1677B57600E31D08 /* PAWLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PAWLoginViewController.xib; sourceTree = "<group>"; };
+		673011301677B57600E31D08 /* PAWNewUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWNewUserViewController.h; sourceTree = "<group>"; };
+		673011311677B57600E31D08 /* PAWNewUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWNewUserViewController.m; sourceTree = "<group>"; };
+		673011321677B57600E31D08 /* PAWNewUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PAWNewUserViewController.xib; sourceTree = "<group>"; };
+		673011331677B57600E31D08 /* PAWPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWPost.h; sourceTree = "<group>"; };
+		673011341677B57700E31D08 /* PAWPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWPost.m; sourceTree = "<group>"; };
+		673011351677B57700E31D08 /* PAWSearchRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWSearchRadius.h; sourceTree = "<group>"; };
+		673011361677B57700E31D08 /* PAWSearchRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWSearchRadius.m; sourceTree = "<group>"; };
+		673011371677B57700E31D08 /* PAWSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWSettingsViewController.h; sourceTree = "<group>"; };
+		673011381677B57700E31D08 /* PAWSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWSettingsViewController.m; sourceTree = "<group>"; };
+		673011391677B57700E31D08 /* PAWSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PAWSettingsViewController.xib; sourceTree = "<group>"; };
+		6730113A1677B57700E31D08 /* PAWWallPostCreateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWWallPostCreateViewController.h; sourceTree = "<group>"; };
+		6730113B1677B57700E31D08 /* PAWWallPostCreateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWWallPostCreateViewController.m; sourceTree = "<group>"; };
+		6730113C1677B57700E31D08 /* PAWWallPostCreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PAWWallPostCreateViewController.xib; sourceTree = "<group>"; };
+		6730113D1677B57700E31D08 /* PAWWallPostsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWWallPostsTableViewController.h; sourceTree = "<group>"; };
+		6730113E1677B57700E31D08 /* PAWWallPostsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWWallPostsTableViewController.m; sourceTree = "<group>"; };
+		6730113F1677B57700E31D08 /* PAWWallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWWallViewController.h; sourceTree = "<group>"; };
+		673011401677B57700E31D08 /* PAWWallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWWallViewController.m; sourceTree = "<group>"; };
+		673011411677B57700E31D08 /* PAWWallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PAWWallViewController.xib; sourceTree = "<group>"; };
+		673011421677B57700E31D08 /* PAWWelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAWWelcomeViewController.h; sourceTree = "<group>"; };
+		673011431677B57700E31D08 /* PAWWelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAWWelcomeViewController.m; sourceTree = "<group>"; };
+		673011501677B5EF00E31D08 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		67776AFA1677B65300AFA3CB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		67776AFD1677B67400AFA3CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67776AFF1677B67900AFA3CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		67776B011677B69900AFA3CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67776B031677B6C000AFA3CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		67776B051677B70200AFA3CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		67776B071677B7B600AFA3CB /* PAWWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PAWWelcomeViewController.xib; sourceTree = "<group>"; };
+		67776B091677B80B00AFA3CB /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		67776B0D1677B84100AFA3CB /* hackitlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hackitlogo.png; sourceTree = "<group>"; };
+		67776B4A167803AB00AFA3CB /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		67776B4B167803AB00AFA3CB /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +99,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67776B061677B70200AFA3CB /* QuartzCore.framework in Frameworks */,
+				67776B041677B6C000AFA3CB /* MobileCoreServices.framework in Frameworks */,
+				67776B021677B69900AFA3CB /* SystemConfiguration.framework in Frameworks */,
+				67776B001677B67900AFA3CB /* Security.framework in Frameworks */,
+				67776AFE1677B67400AFA3CB /* MapKit.framework in Frameworks */,
+				673011511677B5EF00E31D08 /* CoreLocation.framework in Frameworks */,
 				6730110B1677B50000E31D08 /* UIKit.framework in Frameworks */,
 				6730110D1677B50000E31D08 /* Foundation.framework in Frameworks */,
 				6730110F1677B50000E31D08 /* CoreGraphics.framework in Frameworks */,
+				67776AFB1677B65300AFA3CB /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +135,13 @@
 		673011091677B50000E31D08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				67776B051677B70200AFA3CB /* QuartzCore.framework */,
+				67776B031677B6C000AFA3CB /* MobileCoreServices.framework */,
+				67776B011677B69900AFA3CB /* SystemConfiguration.framework */,
+				67776AFF1677B67900AFA3CB /* Security.framework */,
+				67776AFD1677B67400AFA3CB /* MapKit.framework */,
+				673011501677B5EF00E31D08 /* CoreLocation.framework */,
+				67776AFA1677B65300AFA3CB /* Parse.framework */,
 				6730110A1677B50000E31D08 /* UIKit.framework */,
 				6730110C1677B50000E31D08 /* Foundation.framework */,
 				6730110E1677B50000E31D08 /* CoreGraphics.framework */,
@@ -77,12 +152,41 @@
 		673011101677B50000E31D08 /* dragonfly */ = {
 			isa = PBXGroup;
 			children = (
-				673011191677B50000E31D08 /* AppDelegate.h */,
-				6730111A1677B50000E31D08 /* AppDelegate.m */,
-				6730111C1677B50000E31D08 /* ViewController.h */,
-				6730111D1677B50000E31D08 /* ViewController.m */,
-				6730111F1677B50000E31D08 /* ViewController.xib */,
+				67776B0D1677B84100AFA3CB /* hackitlogo.png */,
+				67776B091677B80B00AFA3CB /* Button.png */,
+				673011271677B57600E31D08 /* PAWActivityView.h */,
+				673011281677B57600E31D08 /* PAWActivityView.m */,
+				673011291677B57600E31D08 /* PAWAppDelegate.h */,
+				6730112A1677B57600E31D08 /* PAWAppDelegate.m */,
+				6730112B1677B57600E31D08 /* PAWCircleView.h */,
+				6730112C1677B57600E31D08 /* PAWCircleView.m */,
+				6730112D1677B57600E31D08 /* PAWLoginViewController.h */,
+				6730112E1677B57600E31D08 /* PAWLoginViewController.m */,
+				6730112F1677B57600E31D08 /* PAWLoginViewController.xib */,
+				673011301677B57600E31D08 /* PAWNewUserViewController.h */,
+				673011311677B57600E31D08 /* PAWNewUserViewController.m */,
+				673011321677B57600E31D08 /* PAWNewUserViewController.xib */,
+				673011331677B57600E31D08 /* PAWPost.h */,
+				673011341677B57700E31D08 /* PAWPost.m */,
+				673011351677B57700E31D08 /* PAWSearchRadius.h */,
+				673011361677B57700E31D08 /* PAWSearchRadius.m */,
+				673011371677B57700E31D08 /* PAWSettingsViewController.h */,
+				673011381677B57700E31D08 /* PAWSettingsViewController.m */,
+				673011391677B57700E31D08 /* PAWSettingsViewController.xib */,
+				6730113A1677B57700E31D08 /* PAWWallPostCreateViewController.h */,
+				6730113B1677B57700E31D08 /* PAWWallPostCreateViewController.m */,
+				6730113C1677B57700E31D08 /* PAWWallPostCreateViewController.xib */,
+				6730113D1677B57700E31D08 /* PAWWallPostsTableViewController.h */,
+				6730113E1677B57700E31D08 /* PAWWallPostsTableViewController.m */,
+				6730113F1677B57700E31D08 /* PAWWallViewController.h */,
+				673011401677B57700E31D08 /* PAWWallViewController.m */,
+				673011411677B57700E31D08 /* PAWWallViewController.xib */,
+				673011421677B57700E31D08 /* PAWWelcomeViewController.h */,
+				673011431677B57700E31D08 /* PAWWelcomeViewController.m */,
+				67776B071677B7B600AFA3CB /* PAWWelcomeViewController.xib */,
 				673011111677B50000E31D08 /* Supporting Files */,
+				67776B4A167803AB00AFA3CB /* TabBarController.h */,
+				67776B4B167803AB00AFA3CB /* TabBarController.m */,
 			);
 			path = dragonfly;
 			sourceTree = "<group>";
@@ -150,7 +254,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				673011151677B50000E31D08 /* InfoPlist.strings in Resources */,
-				673011211677B50000E31D08 /* ViewController.xib in Resources */,
+				67776B081677B7B600AFA3CB /* PAWWelcomeViewController.xib in Resources */,
+				67776B0A1677B80B00AFA3CB /* Button.png in Resources */,
+				67776B0E1677B84100AFA3CB /* hackitlogo.png in Resources */,
+				67776B0F1677BA5500AFA3CB /* PAWLoginViewController.xib in Resources */,
+				67776B101677BA6B00AFA3CB /* PAWNewUserViewController.xib in Resources */,
+				67776B111677BA6E00AFA3CB /* PAWSettingsViewController.xib in Resources */,
+				67776B121677BA7100AFA3CB /* PAWWallPostCreateViewController.xib in Resources */,
+				67776B131677BA7400AFA3CB /* PAWWallViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +272,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673011441677B5E400E31D08 /* PAWActivityView.m in Sources */,
+				673011451677B5E400E31D08 /* PAWAppDelegate.m in Sources */,
+				673011461677B5E400E31D08 /* PAWCircleView.m in Sources */,
+				673011471677B5E400E31D08 /* PAWLoginViewController.m in Sources */,
+				673011481677B5E400E31D08 /* PAWNewUserViewController.m in Sources */,
+				673011491677B5E400E31D08 /* PAWPost.m in Sources */,
+				6730114A1677B5E400E31D08 /* PAWSearchRadius.m in Sources */,
+				6730114B1677B5E400E31D08 /* PAWSettingsViewController.m in Sources */,
+				6730114C1677B5E400E31D08 /* PAWWallPostCreateViewController.m in Sources */,
+				6730114D1677B5E400E31D08 /* PAWWallPostsTableViewController.m in Sources */,
+				6730114E1677B5E400E31D08 /* PAWWallViewController.m in Sources */,
+				6730114F1677B5E400E31D08 /* PAWWelcomeViewController.m in Sources */,
 				673011171677B50000E31D08 /* main.m in Sources */,
-				6730111B1677B50000E31D08 /* AppDelegate.m in Sources */,
-				6730111E1677B50000E31D08 /* ViewController.m in Sources */,
+				67776B4C167803AC00AFA3CB /* TabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,14 +300,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6730111F1677B50000E31D08 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				673011201677B50000E31D08 /* en */,
-			);
-			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -195,6 +309,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -220,6 +335,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -237,9 +353,15 @@
 		673011251677B50000E31D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dragonfly2/dragonfly\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "dragonfly/dragonfly-Prefix.pch";
 				INFOPLIST_FILE = "dragonfly/dragonfly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,9 +370,15 @@
 		673011261677B50000E31D08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dragonfly2/dragonfly\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "dragonfly/dragonfly-Prefix.pch";
 				INFOPLIST_FILE = "dragonfly/dragonfly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +403,7 @@
 				673011261677B50000E31D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

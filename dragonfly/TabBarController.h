@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TabBarController : UITabBarController
+@interface TabBarController : UITabBarController<UITabBarControllerDelegate,    UINavigationControllerDelegate> 
+{
+    UITabBarController *tabController;
+    UINavigationController *firstNavigationController;
+    UINavigationController *secondNavigationController;
+}
+
+@property (nonatomic, retain) UITabBarController *tabController;
+@property (nonatomic, retain) UINavigationController *firstNavigationController;
+@property (nonatomic, retain) UINavigationController *secondNavigationController;
 
 @end
