@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TabBarController.h
 //  dragonfly
 //
 //  Created by Raymond Hendy on 12/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TabBarController : UITabBarController
 
 @end
